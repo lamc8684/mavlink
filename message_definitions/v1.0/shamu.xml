@@ -5,10 +5,10 @@
   <enums>
     </enums>
   <messages>
-    <message id="180" name="DATA_ACK">
+    <message id="180" name="DATA_REQUEST">
       <description>Acknowledge up to 126 ENCAPSULATED_DATA packets.</description>
-      <field type="uint8_t" name="number_ackpackets">Number of packets to acknowledge (1 to 127)</field>
-      <field type="uint16_t[127]" name="acknowledged_packets">Sequence number of acknowledged packets.</field>
+      <field type="uint8_t" name="number_requestpackets">Number of packets to request (1 to 127)</field>
+      <field type="uint16_t[127]" name="requested_packets">Sequence number of requested packets.</field>
     </message>
   </messages>
 </mavlink>
