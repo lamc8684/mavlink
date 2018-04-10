@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <mavlink>
-  <include>common.xml</include>
+  <include>ardupilotmega.xml</include>
   <version>3</version>
   <enums>
     </enums>
   <messages>
-    <message id="180" name="DATA_REQUEST">
+    <message id="11021" name="DATA_REQUEST">
       <description>Acknowledge up to 126 ENCAPSULATED_DATA packets.</description>
       <field type="uint8_t" name="number_requestpackets">Number of packets to request (1 to 127)</field>
       <field type="uint16_t[127]" name="requested_packets">Sequence number of requested packets.</field>
